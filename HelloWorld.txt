@@ -1,0 +1,10 @@
+public class HelloAndroid extends Activity {
+    /** Called when the activity is first created. */
+    [MENTION=123941]override[/MENTION]
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
+        TextView HelloWorldTextView = new TextView(this);
+        HelloWorldTextView.setText("Hello World, this is my TextView");
+        setContentView(HelloWorldTextView);
+    }
+}
